@@ -1,0 +1,43 @@
+.ant-layout-sider {
+    background: #0f172a !important;
+    box-shadow: 2px 0 15px rgba(0,0,0,.08);
+}
+
+.ant-menu-dark {
+    background: #0f172a !important;
+}
+
+.ant-menu {
+    background: transparent !important;
+}
+
+.ant-menu-item {
+    height: 52px !important;
+    line-height: 52px !important;
+    margin: 8px 14px !important;
+    border-radius: 12px !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ant-menu-item-icon{
+    font-size:18px !important;
+}
+
+.ant-menu-item:hover{
+    background:#1e293b !important;
+}
+
+.ant-menu-item-selected{
+
+    background:linear-gradient(
+        90deg,
+        #2563eb,
+        #4f46e5
+    ) !important;
+
+}
+
+.ant-menu-item-selected::after{
+    display:none !important;
+}

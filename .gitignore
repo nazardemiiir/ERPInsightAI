@@ -1,0 +1,33 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET
+**/bin/
+**/obj/
+
+# Node.js
+**/node_modules/
+**/dist/
+
+# Configuration and secrets
+appsettings.json
+appsettings.*.json
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Logs
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db

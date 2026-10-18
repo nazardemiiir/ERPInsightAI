@@ -1,0 +1,35 @@
+.erp-card{
+
+    border:none !important;
+
+    border-radius:18px !important;
+
+    box-shadow:0 8px 25px rgba(15,23,42,.06) !important;
+
+    transition:.3s;
+
+}
+
+.erp-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 18px 35px rgba(15,23,42,.12) !important;
+
+}
+
+.erp-card .ant-card-head{
+
+    border:none !important;
+
+    font-size:17px;
+
+    font-weight:600;
+
+}
+
+.erp-card .ant-card-body{
+
+    padding:24px;
+
+}
